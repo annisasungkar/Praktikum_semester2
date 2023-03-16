@@ -24,7 +24,7 @@ public class book {
         System.out.println("Kategori Buku   : " + kategori);
         System.out.println("Judul Buku      : " + judul);
         System.out.println("Penulis         : " + penulis);
-        System.out.println("Tersedia " + jumlah);
+        System.out.println("Tersedia        : " + jumlah);
         System.out.println();
      }
 }
