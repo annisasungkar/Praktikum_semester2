@@ -1,7 +1,5 @@
 package tugas1;
 
-import java.net.SocketTimeoutException;
-
 public class book {
     private String kategori;
     private String judul;
@@ -25,7 +23,18 @@ public class book {
         System.out.println("Judul Buku      : " + judul);
         System.out.println("Penulis         : " + penulis);
         System.out.println("Tersedia        : " + jumlah);
-        System.out.println();
-     }
+    }
+    public String getKategori() {
+        return kategori;
+    }
+    public String getJudul() {
+        return judul;
+    }
+    public String getPenulis() {
+        return penulis;
+    }
+    public int getJumlah() {
+        return jumlah;
+    } 
 }
 

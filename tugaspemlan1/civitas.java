@@ -10,6 +10,9 @@ class civitas{
         this.nama = nama;
         this.asal = asal;
     }
+    public civitas (String asal){
+        this.asal = asal;
+    }
 }
 class Dosen extends civitas{
     private int NIDN;
