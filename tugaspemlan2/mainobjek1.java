@@ -2,16 +2,16 @@ package tugaspemlan2;
 
 public class mainobjek1 {
     public static void main(String[] args) {
-        lingkaran objekLingkaranKepala = new lingkaran(10);
-        persegiPanjang objekPersegiPanjangBadan = new persegiPanjang(40, 80);
-        persegiPanjang objekPersegiPanjangTanganKiri = new persegiPanjang(20, 60);
-        persegiPanjang objekPersegiPanjangTanganKanan = new persegiPanjang(20, 60);
-        lingkaran objekLingkaranTelapakTanganKiri = new lingkaran(5);
-        lingkaran objekLingkaranTelapakTanganKanan = new lingkaran(5);
+        lingkaran objekLingkaranKepala = new lingkaran(14);
+        persegiPanjang objekPersegiPanjangBadan = new persegiPanjang(40, 60);
+        persegiPanjang objekPersegiPanjangTanganKiri = new persegiPanjang(20, 50);
+        persegiPanjang objekPersegiPanjangTanganKanan = new persegiPanjang(20, 50);
+        lingkaran objekLingkaranTelapakTanganKiri = new lingkaran(7);
+        lingkaran objekLingkaranTelapakTanganKanan = new lingkaran(7);
         persegiPanjang objekPersegiPanjangKakiKiri = new persegiPanjang(20, 70);
         persegiPanjang objekPersegiPanjangKakiKanan = new persegiPanjang(20, 70);
-        lingkaran objekLingkaranTelapakKakiKiri = new lingkaran(5);
-        lingkaran objekLingkaranTelapakKakiKanan = new lingkaran(5);
+        lingkaran objekLingkaranTelapakKakiKiri = new lingkaran(7);
+        lingkaran objekLingkaranTelapakKakiKanan = new lingkaran(7);
     
         double luasTotal = objekLingkaranKepala.hitungLuas()
                     + objekPersegiPanjangBadan.hitungLuas()
