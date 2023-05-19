@@ -45,4 +45,3 @@ public class hargaJaket {
         System.out.println("Total harga jaket C (200 buah): Rp." + totalHarga);
     }
 }
-
